@@ -67,36 +67,42 @@ Das System ist in drei logische Funktionsebenen unterteilt. Der RC-Empfänger bi
     |                             (iNAV)                            |
     +---------------------------------------------------------------+
 
-===================================================
+```text
+========================================================================
 2. ZULEITUNGEN AM WAVESHARE RP2040-ZERO
-===================================================
+========================================================================
 
-                                      +---------------------------------------+
+                                +-------------------------------------+
 
-                                      |               [ USB-C ]               | <-- USB-Anschluss oben
-                                      +---------------------------------------+
- Empfänger [GND]  ------------------> | [GND]                           [5V]  | <--- FC [UART4 +4,5V]
+                                |             [ USB-C ]               | <-- USB-Anschluss oben
+                                +-------------------------------------+
+Empfänger [GND] --------------> | [GND]                          [5V] | <--- FC [UART4 +4,5V]
 
-                                      | [GND]                          [GND]  | <--- FC [UART4 GND]
- Empfänger [TLM] <--- [1 kOhm] <----- | [GP0] (TLM-Ausgang)            [3V3]  |
- Hott, Multiplex
-                                      | [GP1]                         [GP29]  |
-                                      | [GP2]        +---------+      [GP28]  |
-                                      | [GP3]        |  BOOT   |      [GP27]  |
-                                      | [GP4]        +---------+      [GP26]  |
-FC [UART4 TX] -----> [1 kOhm] ------> | [GP5] (LTM-Eingang)           [GP15]  |
+                                | [GND]                         [GND] | <--- FC [UART4 GND]
+Empfänger [TLM] <--- [1 kOhm] <-| [GP0] (TLM-Ausgang)           [3V3] | Hott, Multiplex
 
-                                      | [GP6]        +---------+      [GP14]  |
-                                      | [GP7]        |  RESET  |      [RX0]   | (GP13)
-                                      |              +---------+      [TX0]   | (GP12)
-                                      |                (RGB) <-- Status-LED   |
-                                      +---------------------------------------+
+                                |                                     |
+                                | [GP1]                        [GP29] |
+                                | [GP2]          +-------+     [GP28] |
+                                | [GP3]          |  BOOT |     [GP27] |
+                                | [GP4]          +-------+     [GP26] |
+FC [UART4 TX] ----> [1 kOhm] -> | [GP5] (LTM-Eingang)          [GP15] |
 
-                                         |   |   |   |   |   |   |   |   |
-                                        GP8 GP9 GP10 GP11 GND 3V3 GP22 GP21 GP20
-                                             |
- Empfänger [TLM] <--- [1 kOhm] <------------ |
- Jeti
+                                |                                     |
+                                | [GP6]          +-------+     [GP14] |
+                                | [GP7]          | RESET |      [RX0] | (GP13)
+                                |                +-------+      [TX0] | (GP12)
+                                |          (RGB) <-- Status-LED       |
+                                +-------------------------------------+
+
+                                   |   |   |   |   |   |   |   |   |
+                                  GP8 GP9 GP10 GP11 GND 3V3 GP22 GP21 GP20
+                                       |
+Empfänger [TLM] <--- [1 kOhm] <--------+ Jeti
+
+```
+
+
 
 ### Strukturierte Leitungsführung & Schutzbeschaltung:
 1. **Verbindung zwischen Empfänger und Flight Controller (Hauptstrom & Steuerung):** 
