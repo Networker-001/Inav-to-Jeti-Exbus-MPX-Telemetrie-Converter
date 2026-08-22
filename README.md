@@ -169,13 +169,5 @@ Das integrierte Terminal-Menü wird am PC über die USB-Schnittstelle aufgerufen
 
 ---
 
-## 4. TECHNISCHE HINTERGRÜNDE & DATENLOGIK
-
-### Warum Single-Core-Betrieb auf Core 0?
-Das originale openXsensor-Framework trennt das Einlesen der Sensoren (Core 1) und das Senden der Telemetrie (Core 0) über eine interne Daten-Queue (`sent2Core0`). LTM sendet jedoch asynchrone Frames in extrem kurzen Abständen. Bei Live-Daten verstopfte diese Core-Queue regelmäßig, was zu Verbindungsabbrüchen und starren Nullwerten auf der Fernsteuerung führte. 
-
-**Die Lösung:** Der iNav-LTM-Parser wurde direkt in die Hauptschleife von **Core 0** integriert. Die Daten werden blockierungsfrei in derselben Mikrosekunde eingelesen, in der sie verarbeitet und gesendet werden. Die Queue wird umgangen, die Übertragung bleibt stabil.
-
-### Die dynamische Notbremse im Parser
-Standardmäßige LTM-Parser arbeiten mit fest vorgegebenen Paketlängen (z.B. S-Frame = 6 Bytes). Je nach iNav-Version variieren diese Paketlängen jedoch geringfügig, was bei klassischen Systemen zu permanenten Checksummenfehlern führt.
+[Das originale OPENXSENSOR Projekt](oxs.md)
 
