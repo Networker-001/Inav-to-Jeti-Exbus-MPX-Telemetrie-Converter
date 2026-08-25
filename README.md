@@ -23,15 +23,15 @@ Also ein sehr überschaubares Projekt!
 
 [Zum technischen Hintergrung](Doku/Hintergrund.md)
 
-[Zur Löungsbeschreibung](Doku\Lösung.md)
+[Zur Löungsbeschreibung](Doku/Lösung.md)
 
-[Zum physikalischen Aufbau](Doku\Aufbau.md)
+[Zum physikalischen Aufbau](Doku/Aufbau.md)
 
-[Zur INAV Konfiguration](Doku\INAV.md)
+[Zur INAV Konfiguration](Doku/INAV.md)
 
-[Zur JETI Konfiguration](Doku\Jeti.md)
+[Zur JETI Konfiguration](Doku/Jeti.md)
 
-[Zum USB MENUE des Konverters](Doku\Konverter.md)
+[Zum USB MENUE des Konverters](Doku/Konverter.md)
 
 [Zum orginalen OPENXSENSOR on RP2040 Projekt](oxs.md)
 
