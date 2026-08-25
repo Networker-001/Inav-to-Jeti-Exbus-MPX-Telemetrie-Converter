@@ -1,3 +1,6 @@
+
+# Die Konfiguration über USB ist im Regelfall nicht notwendig!
+
 ## Zur Konfiguration des Konverters über USB wird das Programm Coolterm empfohlen.
 
 1. Konverter per USB mit einem Laptop verbinden.
