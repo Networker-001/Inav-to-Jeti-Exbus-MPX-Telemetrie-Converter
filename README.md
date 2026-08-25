@@ -25,7 +25,7 @@ Also ein sehr überschaubares Projekt!
 
 [Zum technischen Hintergrung](Doku/Hintergrund.md)
 
-[Zur Löungsbeschreibung](Doku/Lösung.md)
+[Zur Lösungsbeschreibung](Doku/Lösung.md)
 
 [Zum physikalischen Aufbau](Doku/Aufbau.md)
 
