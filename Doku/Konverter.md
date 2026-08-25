@@ -13,7 +13,7 @@ FV + Enter : Anzeigen der Empfangenen Telemetriewerte
 
 inav = 2   : Senden von Telemetriewerten zum Empfänger ohne INAV
 
-?          : Hilefefunktion
+?          : Hielfefunktion
 
 ### Befehlsübersich der Einstellungen für INAV
 
