@@ -33,5 +33,5 @@ Also ein sehr überschaubares Projekt!
 
 [Zum USB MENUE des Konverters](Doku/Konverter.md)
 
-[Zum orginalen OPENXSENSOR on RP2040 Projekt](oxs.md)
+[Zum orginalen OPENXSENSOR on RP2040 Projekt](Doku/oxs.md)
 
