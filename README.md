@@ -21,7 +21,7 @@ Also ein sehr überschaubares Projekt!
 
 *Der Konverter auf dem Bild ist ein Musteraufbau, der eigentliche Konverter hat die Größe einer Briefmarke*
 
-![PIKO](Bilder/Piko.jpg)
+![PIKO](Bilder/piko.jpg)
 
 [Zum technischen Hintergrung](Doku/Hintergrund.md)
 
