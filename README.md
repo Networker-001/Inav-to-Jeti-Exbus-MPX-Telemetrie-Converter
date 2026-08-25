@@ -6,7 +6,7 @@ einem INAV Flugcontroller zu Multiplex oder Jeti REX Empfängern.
 Hierzu wird ein kleines PICO Board benötigt, das mit einem Widerstand zwischen
 dem INAV Port4 und dem Telemetrie-Eingang des Empfängers eingefügt wird.
 
-Die Steurungsdaten vom Rex Empfänger kommen über ein separstes Kabel per SBUS zum
+Die Steuerungsdaten vom Empfänger kommen über ein separates Kabel per SBUS zum
 UART2 des Flugkontrollers
 
 Zur Konfiguration des Boards wird dieses mit einem USB Kabel an einem PC angeschlossen.
