@@ -15,6 +15,8 @@ Es öffnet sich ein Windows-Explorerfenster. In dieses kopiert man die entsprech
 
 Also ein sehr überschaubares Projekt!
 
+![Sensoren](Bilder/Sensoren.jpg)
+
 ## Hier der erste Musteraufbau
 
 ![JETI REX mit Konverter und INAV Controller](Bilder/Musteraufbau.jpg)
