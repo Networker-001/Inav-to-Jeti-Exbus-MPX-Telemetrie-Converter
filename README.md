@@ -21,7 +21,7 @@ Also ein sehr überschaubares Projekt!
 
 *Der Konverter auf dem Bild ist ein Musteraufbau, der eigentliche Konverter hat die Größe einer Briefmarke*
 
-[Zum technischen Hintergrung](Doku\Hintergrund.md)
+[Zum technischen Hintergrung](Doku/Hintergrund.md)
 
 [Zur Löungsbeschreibung](Doku\Lösung.md)
 
