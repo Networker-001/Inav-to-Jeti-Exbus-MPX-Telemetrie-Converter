@@ -4,7 +4,7 @@ Die hier vorgestellte Lösung ermöglicht die Übertragung von Telemetriewerten 
 einem INAV Flugcontroller zu Multiplex oder Jeti REX Empfängern.
 
 Es wird ein kleines Zero Board (Waveshare RP2040-Zero) benötigt, das mit einem Widerstand zwischen
-dem INAV Port4 und dem Telemetrie-Eingang des Empfängers eingefügt wird.
+dem INAV UART4 und dem Telemetrie-Eingang des Empfängers eingefügt wird.
 
 Die Steuerungsdaten vom Empfänger kommen über ein separates Kabel per SBUS zum
 UART2 des Flugkontrollers
