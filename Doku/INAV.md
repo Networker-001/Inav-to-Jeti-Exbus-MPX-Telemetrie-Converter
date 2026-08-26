@@ -6,3 +6,5 @@ Damit Daten aus dem TX4-Pad fließen, müssen im iNav-Configurator folgende Para
 
 2. **Configuration-Tab:** Das System-Feature **SOFTSERIAL** muss global **deaktiviert (AUS)** sein, um den stabilen Betrieb über den Hardware-UART zu erzwingen.
 
+
+![Ports](../Bilder/INAV-Ports.png)
