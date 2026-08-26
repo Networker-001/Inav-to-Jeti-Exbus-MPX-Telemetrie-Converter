@@ -39,3 +39,5 @@ Also ein sehr überschaubares Projekt!
 
 [Zum orginalen OPENXSENSOR on RP2040 Projekt](Doku/oxs.md)
 
+**[Diskussion auf RC-Network](https://www.rc-network.de/threads/jeti-inav-keinen-%C3%9Cbertragung-der-telemetriewerte.12125914/))**  
+
