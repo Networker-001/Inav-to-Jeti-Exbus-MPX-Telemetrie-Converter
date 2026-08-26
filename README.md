@@ -15,6 +15,8 @@ Es öffnet sich ein Windows-Explorerfenster. In dieses kopiert man die entsprech
 
 Also ein sehr überschaubares Projekt!
 
+**[Diskussion auf RC-Network](https://www.rc-network.de/threads/jeti-inav-keinen-%C3%9Cbertragung-der-telemetriewerte.12125914/)**  
+
 ![Sensoren](Bilder/Sensoren.jpg)
 
 ## Hier der erste Musteraufbau
@@ -39,5 +41,5 @@ Also ein sehr überschaubares Projekt!
 
 [Zum orginalen OPENXSENSOR on RP2040 Projekt](Doku/oxs.md)
 
-**[Diskussion auf RC-Network](https://www.rc-network.de/threads/jeti-inav-keinen-%C3%9Cbertragung-der-telemetriewerte.12125914/))**  
+
 
