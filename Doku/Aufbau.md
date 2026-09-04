@@ -20,11 +20,12 @@ Das System ist in drei logische Funktionsebenen unterteilt. Der RC-Empfänger bi
           |         |     |                        |           |
           |         |     |                        v           |
           |         |     |                   +----+-----------+----+
-          |         |     |                   |    [GPIO 0] MPX Hott|
-          |         |     |                   |    [GPIO 9]  Jeti   |         
-          |         |     |                   |                     |
-          |         |     |                   |     RP2040          |
-          |         |     |                   |   KONVERTER         |
+          |         |     |                   |   [GND]    [GPIO 0] |  MPX, Hott, FRSKY
+          |         |     |                   |            [GPIO 9] |   Jeti       
+          |         |     |                   |                     | 
+          |         |     |                   |                     |         
+          |         |     |                   |        RP2040       |
+          |         |     |                   |      KONVERTER      |
           |         |     |                   |                     |
           |         |     |                   |                     |
           |         |     |                   | [5V] [GND] [GPIO 5] |
