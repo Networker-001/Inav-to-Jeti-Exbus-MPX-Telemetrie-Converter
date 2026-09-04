@@ -55,7 +55,7 @@ Das System ist in drei logische Funktionsebenen unterteilt. Der RC-Empfänger bi
 Empfänger [GND] --------------> | [GND]                          [5V] | <--- FC [UART4 +4,5V]
 
                                 | [GND]                         [GND] | <--- FC [UART4 GND]
-Empfänger [TLM] <--- [1 kOhm] <-| [GP0] (TLM-Ausgang)           [3V3] | Hott, Multiplex
+Empfänger [TLM] <--- [1 kOhm] <-| [GP0] (TLM-Ausgang)           [3V3] |          Hott, Multiplex, FRSKY
 
                                 |                                     |
                                 | [GP1]                        [GP29] |
