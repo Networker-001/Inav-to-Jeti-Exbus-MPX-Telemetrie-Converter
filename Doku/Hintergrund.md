@@ -1,5 +1,5 @@
 
-## DER Technische HINTERGRUND
+## Der Technische HINTERGRUND
 
 Es wurde oftmals berichtet, dass die direkte Nutzung des Jeti EXBUS-Protokolls in der iNav-Firmware zu Instabilitäten führen kann. Durch Fehler im iNav-Quellcode und Inkompatibilitäten bei der Kompilierung mit neueren Compiler-Versionen kam es bei aktiver EXBUS-Verbindung regelmäßig zu Systemausfällen (Freezes) des Flight Controllers. Diese traten vor allem bei schnellen Steuerbewegungen oder bei der Übertragung von mehr als 16 Kanälen auf. Zudem war die Rückrichtung für Telemetriedaten fehlerhaft implementiert, was zu einfrierenden oder fehlenden Werten auf dem Sender führte. 
 
